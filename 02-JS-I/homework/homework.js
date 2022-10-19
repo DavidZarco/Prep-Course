@@ -60,7 +60,7 @@ function sonIguales(x, y) {
   // Devuelve "true" si "x" e "y" son iguales
   // De lo contrario, devuelve "false"
   // Tu código:
-  return x==y;
+  return x===y;
 }
 
 function tienenMismaLongitud(str1, str2) {
@@ -149,7 +149,7 @@ function esPositivo(numero) {
   //Si el número es 0, devuelve false
   var  cadena = "";
   var bool = true;
-  if (numero==0) {
+  if (numero===0) {
     return bool = false;
     
   } else {
@@ -226,7 +226,7 @@ function esVocal(letra){
   if (letra.length>1) {
     return letra="Dato incorrecto";
   } else {
-    if (letra=="a"||letra=="e"||letra=="i"||letra=="o"||letra=="u") {
+    if (letra==="a"||letra==="e"||letra==="i"||letra==="o"||letra==="u") {
       return letra="Es vocal";
     }else{
       return letra="Dato incorrecto";
