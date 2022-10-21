@@ -49,11 +49,15 @@ function saludo(idioma) {
   // Tu código:
   switch (idioma) {
     case "aleman":
+    
     return "Guten Tag!";      
+    
     case "mandarin":
     return "Ni Hao!";  
+    
     case "ingles":
     return "Hello!";
+    
     default:
       return "Hola!";
   }
@@ -70,13 +74,17 @@ function colors(color) {
   switch (color) {
     case "blue":
       return "This is blue";
-    case "red":
+    
+      case "red":
       return "This is red";
-    case "green":
+    
+      case "green":
       return "This is green";
-    case "orange":
+    
+      case "orange":
       return "This is orange";
-    default:
+    
+      default:
     return "Color not found";
   }
 }
